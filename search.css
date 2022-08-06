@@ -1,0 +1,152 @@
+ul {
+    list-style-type: none;
+    margin: 0 10px;
+    padding:0;
+    overflow: hidden;
+}
+
+li {
+    float: right; 
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    padding: 15px 10px;
+}
+
+/*_______________________________________________________________*/
+
+img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 80px;
+    /* border: 3px solid brown; */
+}
+
+/*________________________________________________________________*/
+
+#input_container {
+    /* border: 3px solid pink; */
+    padding-top: 20px;
+}
+
+input[type=text] {
+    display: block;
+    margin: 0 auto;
+    width: 555px;
+    height: 45px;
+    padding: 0 15px;
+    font-size: 15px;
+    border-radius: 25px;
+    border-color: rgb(200, 200, 200);
+    border-width: 1px;
+}
+
+@media (max-width: 602px) {
+   input[type=text] {
+    width: 90%;
+   } 
+}
+
+/*__________________________________________________________________*/
+
+#google_search_container {
+    display: flex;
+    margin-top: 35px;
+}
+
+#submit_container {
+    width: 50%;
+}
+
+#lucky_container {
+    width: 50%;
+}
+
+.button {
+    text-decoration: none;
+    width: 120px;
+    height: 16px;
+    text-align: center;
+}
+
+.search_button {
+    float: right;
+    margin-right: 12px;
+}
+
+.lucky_button {
+    float: left;
+    margin-left: 12px;
+}
+
+input[type=submit] {
+    padding: 10px 10px;
+    background-color: #F8F9FA;
+    border: none;
+    display: block;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* problem: visited hyper links turn purple */
+
+a:visited {
+    color: black;
+}
+
+/* output: they are still black */
+
+
+/* problem: the button made out of an ancher link looks bad*/
+
+.button {
+    width: 160px;
+    height: 23px;
+}
+
+/* output:  it looks nice like the google search butoon*/
+
+/* problem: the google search button doesn't have the pointer icon when I hover on it */
+
+input[type=submit]:hover {
+    cursor: pointer;
+}
+
+/* output: the google search button has the pointer icon when I hover on it */
+
+/* problem: put a word inside of an image */
+
+    /* create a div (that contains the image)that have the height and width equal to the google image */
+    .image_border_div {
+        height: 95px;
+        width: 270px;
+        color: blue;
+        font-size: 20px;
+    }
+     .google_image {
+        margin: 0 0;
+        padding-top: 0px;
+    }
+
+    /* center that div by using block and margin*/
+    .image_border_div {
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* put the word "image" in the bottom right corner of that div */
+    .image_border_div {
+        position: relative;
+    }
+    .images_the_word {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+/* output: word inside of an image */
+
+#image_container_of_the_image_search {
+    margin-top: 80px;
+}

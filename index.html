@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google</title>
+        <link rel="stylesheet" href="search.css">
+    </head>
+    <body>
+        <!--the whole page container-->
+        <div>
+        <!--the header container-->
+
+            <div>
+            <!--put "images" and "advanced" links to the right of the page-->
+            <ul>
+                <li><a href="advanced_search.html">Advanced</a></li>
+                <li><a href="image_search.html">Images</a></li>
+            </ul>
+            </div>
+
+            <!--the google image container-->
+            <div id="image_container">
+                <!-- put the image in the middle of the page -->
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+            </div>
+
+            <!--the search bar container-->
+            <div>
+                <!-- put the search bar in the midde of the page -->
+                <form action="https://www.google.com/search">
+                    <div id="input_container">
+                        <input type="text" name="q">
+                    </div>
+                <!-- put the "google search" and "I'm getting lucky" buttons at the middle of the page-->
+                    <div id="google_search_container">
+                        <div id="submit_container">
+                            <input type="submit" value="Google Search" name="btnK" class="search_button">
+                        </div>
+                        <div id="lucky_container">
+                            <input type="submit" value="I'm feeling lucky" name="btnI" class="lucky_button">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

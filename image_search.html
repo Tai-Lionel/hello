@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search</title>
+    <link rel="stylesheet" href="search.css">
+</head>
+<body>
+    <!--the whole page container-->
+    <div>
+        <!--the header container-->
+
+            <div>
+            <!--put "images" and "advanced" links to the right of the page-->
+            <ul>
+                <li><a href="index.html">Search</a></li>
+            </ul>
+            </div>
+
+            <!--the google image container-->
+            <div id="image_container_of_the_image_search">
+                <!-- put the image in the middle of the page -->
+                <div class="image_border_div">
+                    <img src="https://www.google.com.vn/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google" class="google_image">
+                    <div class="images_the_word">images</div>
+                </div>
+            </div>
+
+            <!--the search bar container-->
+            <div>
+                <!-- put the search bar in the midde of the page -->
+                <!-- figure out what GET parameter google image search needs to goes straight to the image section -->
+                <form action="https://www.google.com/search">
+                    <div id="input_container">
+                        <input type="text" name="q">
+                        <input type="hidden" name="hl" value="en">
+                        <input type="hidden" name="tbm" value="isch">
+                    </div>
+                </form>
+            </div>
+        </div>
+</body>
+</html>
+
+<!-- https://www.google.com.vn/search?q=harvard&hl=en&tbm=isch&sxsrf=ALiCzsYwA7TM_d42gSXxn6XLFKsMAPN-5Q%3A1659671869986&source=hp&biw=767&bih=732&ei=PZXsYpG_OdeB1e8Pxdqw8AY&iflsig=AJiK0e8AAAAAYuyjTbfcx3EDSQ4fGt8TaXdPEN_fGZZ9&ved=0ahUKEwjR0YHC5675AhXXQPUHHUUtDG4Q4dUDCAc&uact=5&oq=harvard&gs_lcp=CgNpbWcQAzIECCMQJzIICAAQgAQQsQMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoFCAAQsQM6CAgAELEDEIMBOgsIABCABBCxAxCDAVAAWIMRYPIRaAFwAHgAgAF0iAH4BZIBAzAuN5gBAKABAaoBC2d3cy13aXotaW1n&sclient=img -->
+
+<!-- https://www.google.com.vn/search?q=harvard&tbm=isch -->

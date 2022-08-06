@@ -1,0 +1,123 @@
+/* ADVANCED SEARCH CSS */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+    /* GOOGLE IMAGE */
+        /* make the google image look smaller */
+        /* turn the google image into a link to the home page*/
+        /* make it show "Go to Google Home" when I hover over it */
+
+        img {
+            width: 72px;
+            margin-top: 15px;
+            margin-left: 10px;
+        }
+    /* ADVANCED SEARCH HEADING */
+        /* TURN THE WORDS INTO RED */
+        /* MARGIN LEFT */
+        /* CREATE A BREAK LINE */
+
+        h2 {
+            color: red;
+            margin-top: 45px;
+            margin-left: 40px;
+            margin-bottom: 30px;
+            font-weight: unset;
+        }
+
+        #break_line {
+            border-top: 1px solid rgba(200, 200, 200, 1);
+        }
+
+        /* UNBOLD THE WORD */
+        /* MARGIN LEFT IT */
+        /* MARGIN TOP IT */
+        h3 {
+            font-weight: unset;
+            margin-left: 40px;
+            margin-top: 40px;
+            margin-bottom: 35px;
+        }
+    
+    /* FORM */
+        /* MARGIN LEFT THE WORD PARTS*/
+
+        .row_container {
+            display: flex;
+            margin: 20px 0;
+        }
+
+        .word_container {
+            margin-left: 40px;
+        }
+
+        .input_container {
+            width: 60%;
+        }
+
+            .input_container_1 {
+                margin-left: 85px;
+            }
+            .input_container_2 {
+                margin-left: 20px;
+            }
+            .input_container_3 {
+                margin-left: 60px;
+            }
+            .input_container_4 {
+                margin-left: 52px;
+            }
+        
+        input[type=text] {
+            height: 30px;
+            width: 100%;
+        }
+
+        /* submit button */
+
+        .input_container_5 {
+            margin-left:225px;
+        }
+        input[type=submit] {
+            float: right;
+            padding: 7px 14px;
+            color: white;
+            background-color: #488BF9;
+            border-color: unset;
+            border-radius: 5px;
+        }
+
+        /* go back to the google homepage */
+            /* creata a div in header which should contain "search" button */
+            /*  float right*/
+
+            .header {
+                position: relative;
+            }
+
+            .search_button {
+                float: right;
+                position: absolute;
+                bottom: 0;
+                right: 10px;
+                margin-right: 25px ;
+            }
+
+            .search_button {
+                text-decoration: none;
+            }
+
+            .search_button:hover {
+                text-decoration: underline;
+            }
+
+            .search_button:active {
+                color: red;
+            }
+
+            .search_button:visited {
+                color: black;
+            }
+

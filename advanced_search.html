@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="advanced_search.css">
+</head>
+<body>
+    <!-- a google image -->
+    <div class="header">
+        <a href="index.html">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google" title="Go the Google Home">
+        </a>
+        <a href="index.html" class="search_button">Search</a>
+    </div>
+    <!-- a heading that says "Advanced Search" -->
+    <h2>Advanced Search</h1>
+    <!-- a smaller heading that says "Find pages with" -->
+    <div id="break_line"></div>
+    <h3>Find pages with...</h3>
+    <!-- a form with four text inputs -->
+    <form action="https://www.google.com/search">
+        <div class="row_container">
+            <div class="word_container">
+                all these words:
+            </div>
+            <div class="input_container input_container_1">
+                <input type="text" name="as_q">
+            </div>
+        </div>
+        <div class="row_container">
+            <div class="word_container">
+                this exact word or phrase:
+            </div>
+            <div class="input_container input_container_2">
+                <input type="text" name="as_epq">
+            </div>
+        </div>
+        <div class="row_container">
+            <div class="word_container">
+                any of these words:
+            </div>
+            <div class="input_container input_container_3">
+                <input type="text" name="as_oq">
+            </div>
+        </div>
+        <div class="row_container">
+            <div class="word_container">
+                none of these words:
+            </div>
+            <div class="input_container input_container_4">
+                <input type="text" name="as_eq">
+            </div>
+        </div>
+
+        <div class="row_container">
+            <div class="input_container input_container_5">
+                <input type="submit" value="Advanced Search">
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>
+
+<!-- https://www.google.com/search?as_q=harvard&as_epq=luffy&as_oq=sam&as_eq=nobody -->
